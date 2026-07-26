@@ -1,0 +1,196 @@
+{
+  "slug": "quikprint",
+  "name": "QuikPrint",
+  "website": "https://quikprint.ca",
+  "industry": "Print Shop",
+  "location": "Oakville, ON",
+  "engagementStart": "2026-07-26",
+  "planName": "60-Day Local SEO Plan",
+  "summary": "Fixing Oakville geo-signals (dedicated landing page, schema, duplicate page cleanup), pushing product pages up the rankings, then building authority and chasing the Canada-wide canvas terms.",
+  "phases": [
+    {
+      "id": "phase-1",
+      "name": "Phase 1 — Foundation & Technical",
+      "timeframe": "Days 1–14",
+      "status": "in-progress"
+    },
+    {
+      "id": "phase-2",
+      "name": "Phase 2 — Service Page Optimization",
+      "timeframe": "Days 15–30",
+      "status": "upcoming"
+    },
+    {
+      "id": "phase-3",
+      "name": "Phase 3 — Authority & Canada Canvas Push",
+      "timeframe": "Days 31–60",
+      "status": "upcoming"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Technical audit + baseline",
+      "detail": "Full technical SEO audit of quikprint.ca to set the baseline and find what's broken.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-06-15",
+      "hours": 4
+    },
+    {
+      "id": "t2",
+      "title": "Fix duplicate Mississauga pages",
+      "detail": "301 redirect the weaker duplicate page into the stronger one so they stop splitting ranking power.",
+      "phase": "phase-1",
+      "status": "in-progress",
+      "completedDate": null,
+      "hours": 1.5
+    },
+    {
+      "id": "t3",
+      "title": "Add LocalBusiness + Service schema",
+      "detail": "Structured data on the homepage and product pages so Google shows rich results with your 4.9-star rating.",
+      "phase": "phase-1",
+      "status": "in-progress",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t4",
+      "title": "Google Business Profile optimization",
+      "detail": "Rewrite the description with Oakville first, verify categories, add services, upload 10+ photos, set service area.",
+      "phase": "phase-1",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t5",
+      "title": "Build the Oakville landing page",
+      "detail": "A dedicated /printing-oakville/ page — the single highest-impact action. Targets all the main local Oakville keywords.",
+      "phase": "phase-1",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 5
+    },
+    {
+      "id": "t6",
+      "title": "Optimize homepage for Oakville",
+      "detail": "Add Oakville to the title tag, H1, and opening copy so Google connects you to local searches.",
+      "phase": "phase-1",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    },
+    {
+      "id": "t7",
+      "title": "Build the blueprint printing page",
+      "detail": "Dedicated Oakville blueprint page targeting 'oakville blueprinting' — 880 searches/mo, currently position 9.",
+      "phase": "phase-1",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t8",
+      "title": "Optimize canvas print page",
+      "detail": "Refresh the stale canvas page and add product schema + FAQ to push Canada-wide canvas terms up.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t9",
+      "title": "Optimize business card page",
+      "detail": "Add paper stock, finishing, and size options plus schema to lift business card rankings.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2.5
+    },
+    {
+      "id": "t10",
+      "title": "Optimize flyer, banner & poster pages",
+      "detail": "Add Oakville geo, more content, and schema to each, all linking back to the Oakville page.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 4
+    },
+    {
+      "id": "t11",
+      "title": "Internal linking structure",
+      "detail": "Wire the Oakville page to all service pages and back, so ranking power flows where it should.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    },
+    {
+      "id": "t12",
+      "title": "Resume + same-day quick wins",
+      "detail": "Optimize the resume page and add a same-day printing section to capture urgent searches.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    },
+    {
+      "id": "t13",
+      "title": "Blog + content cluster",
+      "detail": "New Oakville same-day post plus a canvas cluster, all internally linked to the money pages.",
+      "phase": "phase-3",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 6
+    },
+    {
+      "id": "t14",
+      "title": "Review generation push",
+      "detail": "Counter cards, email/receipt links, and review responses to grow from 52 toward 68 reviews.",
+      "phase": "phase-3",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    },
+    {
+      "id": "t15",
+      "title": "Citation & NAP audit",
+      "detail": "Make your name, address, and phone identical across every directory (Yelp, Apple, Bing, 411, etc.).",
+      "phase": "phase-3",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t16",
+      "title": "Canada canvas push",
+      "detail": "Consolidate canvas rankings and add a real sample gallery to push the 6,600-vol canvas terms toward the top 10.",
+      "phase": "phase-3",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t17",
+      "title": "60-day report + next steps",
+      "detail": "Measure rankings and traffic against the baseline, confirm indexing, and plan days 61–90.",
+      "phase": "phase-3",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    }
+  ],
+  "keywords": [
+    { "term": "print shop oakville", "current": 4, "previous": 4, "target": 1 },
+    { "term": "printing oakville", "current": 8, "previous": 8, "target": 2 },
+    { "term": "printing services oakville", "current": 8, "previous": 8, "target": 3 },
+    { "term": "oakville blueprinting", "current": 9, "previous": 9, "target": 3 },
+    { "term": "photo printing oakville", "current": 3, "previous": 3, "target": 1 },
+    { "term": "canvas print canada", "current": 23, "previous": 23, "target": 10 }
+  ],
+  "updates": [
+    { "date": "2026-07-26", "note": "60-day SEO plan kicked off. Technical audit done; schema and duplicate-page fixes now in progress. Next up: GBP optimization and the new Oakville landing page." }
+  ]
+}
