@@ -155,6 +155,7 @@
     { "term": "duct cleaning Etobicoke", "current": null, "previous": null, "target": 5 }
   ],
   "updates": [
+    { "date": "2026-07-26", "note": "Progress update: Google Business Profile phone number is fixed and live. This week we're correcting the website footer address and adding business schema so Google clearly understands who and where you are — the two changes holding back both your local pack and organic rankings. Next up after that: fixing four misspelled URLs and consolidating duplicate pages." },
     { "date": "2026-07-24", "note": "Fixed the wrong phone number on Google Business Profile — this was sending 'Call' taps to the wrong number and costing booked jobs. Now correct." },
     { "date": "2026-07-24", "note": "Kicked off the organic traffic fix. Priority this week: correct the footer address and add business schema so Google clearly understands who and where you are." }
   ]
