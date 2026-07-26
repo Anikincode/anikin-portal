@@ -30,6 +30,15 @@
   ],
   "tasks": [
     {
+      "id": "t14",
+      "title": "Confirm brand, phone & address (client sign-off)",
+      "detail": "Locked in the three decisions that were blocking every other fix: primary brand (Ingenium Intuito Group Corp.), primary phone (437) 431-6089, and primary address (10 Eva Rd, Etobicoke).",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-07-24",
+      "hours": 1
+    },
+    {
       "id": "t1",
       "title": "Fix the phone number on Google Business Profile",
       "detail": "The 'Call' button on Google was pointing to the wrong number — a live leak of booked jobs. Updated to the correct (437) 431-6089.",
@@ -41,29 +50,47 @@
     {
       "id": "t2",
       "title": "Fix the website footer address",
-      "detail": "Correct the footer to the confirmed address (10 Eva Rd, Etobicoke) so it matches Google and every listing.",
+      "detail": "Corrected the footer sitewide to the confirmed address (10 Eva Rd, Etobicoke, ON M9C 0B3) so it matches Google and every listing.",
       "phase": "phase-1",
-      "status": "in-progress",
-      "completedDate": null,
+      "status": "done",
+      "completedDate": "2026-07-25",
       "hours": 0.5
     },
     {
       "id": "t3",
       "title": "Add LocalBusiness schema to the homepage",
-      "detail": "Add machine-readable business identity (name, phone, address, hours) so Google clearly understands who and where you are. None existed before.",
+      "detail": "Added machine-readable business identity (name, phone, address, hours) to the homepage so Google clearly understands who and where you are. Confirmed live via view-source.",
       "phase": "phase-1",
-      "status": "in-progress",
-      "completedDate": null,
+      "status": "done",
+      "completedDate": "2026-07-25",
       "hours": 2
     },
     {
       "id": "t4",
       "title": "Remove the fake testimonial",
-      "detail": "A placeholder 'SparklePro' testimonial was still live on the AC repair page — removing it to protect trust and credibility.",
+      "detail": "Removed the placeholder 'SparklePro' testimonial from the AC repair page to protect trust and credibility, and replaced it with a genuine HVAC review.",
       "phase": "phase-1",
-      "status": "upcoming",
-      "completedDate": null,
+      "status": "done",
+      "completedDate": "2026-07-25",
       "hours": 0.5
+    },
+    {
+      "id": "t15",
+      "title": "Add meta description — commercial water heater page",
+      "detail": "Wrote a meta description for the commercial water heater page so it shows a proper summary in search results.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-07-26",
+      "hours": 0.5
+    },
+    {
+      "id": "t16",
+      "title": "Review title tags & meta descriptions on key pages",
+      "detail": "Reviewed and updated titles/meta descriptions across 5 key service pages (AC repair, duct cleaning, gas line repair, heat pump, emergency furnace repair) where they were missing.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-07-26",
+      "hours": 1.5
     },
     {
       "id": "t5",
@@ -85,12 +112,21 @@
     },
     {
       "id": "t7",
-      "title": "Fix 4 URL typos with 301 redirects",
-      "detail": "Repair misspelled live URLs (coditioner, instalation, effiency, humifi) with proper redirects so no ranking or link value is lost.",
+      "title": "Fix 4 URL typos with 301 redirects (redo correctly)",
+      "detail": "The first attempt created new correctly-spelled pages alongside the old typo URLs with no redirect — adding duplicates instead of fixing them. Redo by renaming the original pages' slugs in Wix so the 301 redirect fires automatically.",
+      "phase": "phase-2",
+      "status": "in-progress",
+      "completedDate": null,
+      "hours": 2
+    },
+    {
+      "id": "t17",
+      "title": "Fix multiple H1 headings on AC repair page",
+      "detail": "The Etobicoke AC repair page has several H1 headings — demote the extras to H2/H3 so there's one clear H1 per page.",
       "phase": "phase-2",
       "status": "upcoming",
       "completedDate": null,
-      "hours": 2
+      "hours": 1
     },
     {
       "id": "t8",
@@ -109,6 +145,15 @@
       "status": "upcoming",
       "completedDate": null,
       "hours": 1
+    },
+    {
+      "id": "t18",
+      "title": "GBP post — duct cleaning in Etobicoke",
+      "detail": "Created a Google Business Profile post promoting duct cleaning in Etobicoke, following the geo-anchored template with the standard link cluster.",
+      "phase": "phase-3",
+      "status": "done",
+      "completedDate": "2026-07-24",
+      "hours": 0.5
     },
     {
       "id": "t10",
@@ -155,8 +200,8 @@
     { "term": "duct cleaning Etobicoke", "current": null, "previous": null, "target": 5 }
   ],
   "updates": [
-    { "date": "2026-07-26", "note": "Progress update: Google Business Profile phone number is fixed and live. This week we're correcting the website footer address and adding business schema so Google clearly understands who and where you are — the two changes holding back both your local pack and organic rankings. Next up after that: fixing four misspelled URLs and consolidating duplicate pages." },
-    { "date": "2026-07-24", "note": "Fixed the wrong phone number on Google Business Profile — this was sending 'Call' taps to the wrong number and costing booked jobs. Now correct." },
-    { "date": "2026-07-24", "note": "Kicked off the organic traffic fix. Priority this week: correct the footer address and add business schema so Google clearly understands who and where you are." }
+    { "date": "2026-07-26", "note": "Big week of foundational fixes shipped. Your business identity is now clean and consistent: correct phone and address everywhere, business schema live on the homepage, the fake testimonial removed, and titles/meta descriptions reviewed across your key service pages. Next: cleaning up duplicate pages and misspelled URLs, then deeper service-page content." },
+    { "date": "2026-07-25", "note": "Fixed the website footer address sitewide (10 Eva Rd, Etobicoke), added LocalBusiness schema to the homepage so Google understands who and where you are, and removed the placeholder testimonial from the AC repair page." },
+    { "date": "2026-07-24", "note": "Confirmed the three decisions that were blocking everything else — primary brand, phone, and address — then fixed the wrong phone number on Google Business Profile, which had been sending 'Call' taps to the wrong number and costing booked jobs." }
   ]
 }
