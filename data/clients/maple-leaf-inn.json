@@ -1,6 +1,7 @@
 {
   "slug": "maple-leaf-inn",
   "name": "Maple Leaf Inn",
+  "passwordHash": "06f9b6713e5c0e8e3115e523bc66ed56eea01a23e050388d61848ff3dc4659c4",
   "website": "https://mapleleafinn.ca",
   "industry": "Hospitality / Hotel",
   "location": "Kincardine, ON",

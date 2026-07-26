@@ -14,6 +14,62 @@ function esc(s) {
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+// ---- auth (per-client password gate) ---------------------------------
+// Passwords are stored as SHA-256 hashes (never plain text). A client's board
+// stays hidden until they enter the matching password. Unlocks are remembered
+// in localStorage so they don't re-enter it every visit.
+
+async function sha256(text) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+function unlockKey(scope) { return "anikin_portal_unlock_" + scope; }
+
+// A scope (client slug or "staff") is unlocked if we stored its hash and it
+// still matches the expected hash (so rotating a password re-locks it).
+function isUnlocked(scope, expectedHash) {
+  if (!expectedHash) return true; // no password set on this board = open
+  return localStorage.getItem(unlockKey(scope)) === expectedHash;
+}
+
+function setUnlocked(scope, hash) {
+  try { localStorage.setItem(unlockKey(scope), hash); } catch (e) {}
+}
+
+// Renders a password prompt. onSuccess() runs when the right password is typed.
+function renderGate(scope, label, expectedHash, onSuccess) {
+  app.innerHTML = `
+    <div class="gate">
+      <div class="gate-card">
+        <div class="gate-mark">A</div>
+        <h1 class="gate-title">${esc(label)}</h1>
+        <p class="gate-sub">Enter your access password to view this progress board.</p>
+        <form id="gate-form">
+          <input type="password" id="gate-pw" placeholder="Password" autocomplete="current-password" autofocus />
+          <button type="submit">Unlock</button>
+          <div class="gate-error" id="gate-error"></div>
+        </form>
+        <p class="gate-help">Lost your password? Contact Anikin Technologies.</p>
+      </div>
+    </div>`;
+  document.getElementById("gate-form").addEventListener("submit", async e => {
+    e.preventDefault();
+    const pw = document.getElementById("gate-pw").value;
+    const err = document.getElementById("gate-error");
+    err.textContent = "";
+    const h = await sha256(pw);
+    if (h === expectedHash) {
+      setUnlocked(scope, h);
+      onSuccess();
+    } else {
+      err.textContent = "Incorrect password. Please try again.";
+      document.getElementById("gate-pw").value = "";
+      document.getElementById("gate-pw").focus();
+    }
+  });
+}
+
 async function loadJSON(path) {
   const res = await fetch(path, { cache: "no-store" });
   if (!res.ok) throw new Error("Not found: " + path);
@@ -77,6 +133,14 @@ async function renderDashboard() {
     index = await loadJSON("data/clients.json");
   } catch (e) {
     app.innerHTML = `<div class="notice">Could not load client list.</div>`;
+    return;
+  }
+
+  // Staff dashboard is gated by a master password (staffPasswordHash in
+  // clients.json). Until unlocked, the client list is never rendered — so a
+  // client can't reach the roster of other clients.
+  if (index.staffPasswordHash && !isUnlocked("staff", index.staffPasswordHash)) {
+    renderGate("staff", "Staff Dashboard", index.staffPasswordHash, renderDashboard);
     return;
   }
 
@@ -356,6 +420,16 @@ async function renderClient(slug) {
     return;
   }
 
+  // Password gate: if this board has a passwordHash and the visitor hasn't
+  // unlocked it, show the login prompt instead of the board.
+  if (c.passwordHash && !isUnlocked(slug, c.passwordHash)) {
+    renderGate(slug, c.name, c.passwordHash, () => renderBoardFor(c, slug));
+    return;
+  }
+  renderBoardFor(c, slug);
+}
+
+function renderBoardFor(c, slug) {
   const pct = progressOf(c);
   const total = (c.tasks || []).length;
   const done = (c.tasks || []).filter(t => t.status === "done").length;
