@@ -1,6 +1,7 @@
 {
   "staffPasswordHash": "988c3d4e977712a3ffe9f9f59024ef6b3b3300c47f9c5814ab3169423405b8b9",
   "clients": [
+    { "slug": "clima-cool", "name": "Ingenium Intuito Group Corp. (Clima-Cool)", "industry": "HVAC Contractor", "location": "Etobicoke, ON" },
     { "slug": "quikprint", "name": "QuikPrint", "industry": "Print Shop", "location": "Oakville, ON" },
     { "slug": "drainrooter", "name": "DrainRooter Plumbing", "industry": "Plumbing", "location": "Toronto, ON" },
     { "slug": "maple-leaf-inn", "name": "Maple Leaf Inn", "industry": "Hospitality", "location": "Kincardine, ON" }
