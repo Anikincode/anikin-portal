@@ -38,6 +38,15 @@
       "hours": 4
     },
     {
+      "id": "t18",
+      "title": "GBP post — same-day blueprint printing",
+      "detail": "Published a Google Business Profile post promoting same-day blueprint printing for Oakville contractors and architects.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-07-26",
+      "hours": 0.5
+    },
+    {
       "id": "t2",
       "title": "Fix duplicate Mississauga pages",
       "detail": "301 redirect the weaker duplicate page into the stronger one so they stop splitting ranking power.",
@@ -191,6 +200,7 @@
     { "term": "canvas print canada", "current": 23, "previous": 23, "target": 10 }
   ],
   "updates": [
+    { "date": "2026-07-26", "note": "Published a Google Business Profile post on same-day blueprint printing to boost local visibility with Oakville contractors." },
     { "date": "2026-07-26", "note": "60-day SEO plan kicked off. Technical audit done; schema and duplicate-page fixes now in progress. Next up: GBP optimization and the new Oakville landing page." }
   ]
 }
