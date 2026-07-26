@@ -16,7 +16,7 @@
  */
 
 window.FIREBASE_CONFIG = {
-  apiKey: "AIzaSyCBahZ8L8tvpNeznG2T_U7RMR9LqjFNO70",
+  apiKey: "AIzaSyAyf1-vDwAXwauF_CxyYntzi033suMKjIg",
   authDomain: "client-project-tracking-cca98.firebaseapp.com",
   projectId: "client-project-tracking-cca98",
   storageBucket: "client-project-tracking-cca98.firebasestorage.app",
