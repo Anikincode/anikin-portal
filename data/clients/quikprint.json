@@ -25,6 +25,12 @@
       "name": "Phase 3 — Authority & Canada Canvas Push",
       "timeframe": "Days 31–60",
       "status": "upcoming"
+    },
+    {
+      "id": "phase-4",
+      "name": "Product Focus — Blueprints, Posters, Stickers & Decals",
+      "timeframe": "30-Day Sprint",
+      "status": "in-progress"
     }
   ],
   "tasks": [
@@ -189,6 +195,87 @@
       "status": "upcoming",
       "completedDate": null,
       "hours": 2
+    },
+    {
+      "id": "t19",
+      "title": "Blueprints — optimize page to top 3",
+      "detail": "Push the blueprint page from #9 to the top 3 for 'oakville blueprinting' (880 searches/mo): title, same-day angle, pricing section, schema, and FAQ.",
+      "phase": "phase-4",
+      "status": "in-progress",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t20",
+      "title": "Blueprints — FAQ accordion",
+      "detail": "Add a click-to-open blueprint FAQ answering the questions searchers ask before ordering.",
+      "phase": "phase-4",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 1
+    },
+    {
+      "id": "t21",
+      "title": "Posters — optimize page + pricing table",
+      "detail": "Push posters up for 'poster printing near me' (1,600 searches/mo) and win the 'poster cost'/'poster price' searches with a real pricing table (from $9.99).",
+      "phase": "phase-4",
+      "status": "in-progress",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t22",
+      "title": "Posters — FAQ accordion",
+      "detail": "Add the poster FAQ with real pricing so buyers get answers on cost, sizes, and materials right on the page.",
+      "phase": "phase-4",
+      "status": "done",
+      "completedDate": "2026-07-26",
+      "hours": 1
+    },
+    {
+      "id": "t23",
+      "title": "Stickers — build new page",
+      "detail": "Create a custom sticker printing page (die-cut, vinyl, weatherproof) targeting Oakville sticker searches — a service with no page today.",
+      "phase": "phase-4",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 4
+    },
+    {
+      "id": "t24",
+      "title": "Stickers — schema, FAQ & GBP post",
+      "detail": "Add product schema and an FAQ to the new sticker page, then publish a Google post about custom stickers in Oakville.",
+      "phase": "phase-4",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    },
+    {
+      "id": "t25",
+      "title": "Decals — build new page",
+      "detail": "Create a custom decal page (wall, window, vinyl) targeting Oakville decal searches — another service with no page today.",
+      "phase": "phase-4",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 4
+    },
+    {
+      "id": "t26",
+      "title": "Decals — schema, FAQ & GBP post",
+      "detail": "Add product schema and an FAQ to the new decal page, then publish a Google post about custom decals in Oakville.",
+      "phase": "phase-4",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    },
+    {
+      "id": "t27",
+      "title": "Product sprint report + baseline",
+      "detail": "Record baseline positions for the new sticker/decal keywords, confirm the new pages are indexed, and log blueprint + poster movement.",
+      "phase": "phase-4",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 1.5
     }
   ],
   "keywords": [
@@ -196,10 +283,14 @@
     { "term": "printing oakville", "current": 8, "previous": 8, "target": 2 },
     { "term": "printing services oakville", "current": 8, "previous": 8, "target": 3 },
     { "term": "oakville blueprinting", "current": 9, "previous": 9, "target": 3 },
+    { "term": "poster printing near me", "current": 26, "previous": 26, "target": 12 },
     { "term": "photo printing oakville", "current": 3, "previous": 3, "target": 1 },
-    { "term": "canvas print canada", "current": 23, "previous": 23, "target": 10 }
+    { "term": "canvas print canada", "current": 23, "previous": 23, "target": 10 },
+    { "term": "sticker printing oakville", "current": null, "previous": null, "target": 10 },
+    { "term": "wall decals oakville", "current": null, "previous": null, "target": 10 }
   ],
   "updates": [
+    { "date": "2026-07-26", "note": "Started a 30-day product sprint focused on blueprints, posters, stickers, and decals — optimizing the pages that already rank and building new sticker and decal pages from scratch." },
     { "date": "2026-07-26", "note": "Published a Google Business Profile post on same-day blueprint printing to boost local visibility with Oakville contractors." },
     { "date": "2026-07-26", "note": "60-day SEO plan kicked off. Technical audit done; schema and duplicate-page fixes now in progress. Next up: GBP optimization and the new Oakville landing page." }
   ]
