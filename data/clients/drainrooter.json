@@ -1,0 +1,123 @@
+{
+  "slug": "drainrooter",
+  "name": "DrainRooter Plumbing",
+  "website": "https://drainrooterplumbing.ca",
+  "industry": "Plumbing",
+  "location": "Toronto, ON",
+  "engagementStart": "2026-05-01",
+  "planName": "Local SEO — Core 30 Framework",
+  "summary": "Building topical authority through 30 interconnected pages mapped to GBP categories, plus technical fixes and local authority signals.",
+  "phases": [
+    {
+      "id": "phase-1",
+      "name": "Phase 1 — Foundation & Technical",
+      "timeframe": "Weeks 1–2",
+      "status": "in-progress"
+    },
+    {
+      "id": "phase-2",
+      "name": "Phase 2 — Pillar & Service Pages",
+      "timeframe": "Weeks 3–4",
+      "status": "upcoming"
+    },
+    {
+      "id": "phase-3",
+      "name": "Phase 3 — Supporting Content & Authority",
+      "timeframe": "Weeks 5–6",
+      "status": "upcoming"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "GBP category audit & expansion",
+      "detail": "Audited Google Business Profile categories and mapped 8 pillar topics to primary/secondary categories.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-05-06",
+      "hours": 3
+    },
+    {
+      "id": "t2",
+      "title": "Full technical SEO audit",
+      "detail": "Crawled the site, scored it, and built the content-gap backlog.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-05-09",
+      "hours": 4.5
+    },
+    {
+      "id": "t3",
+      "title": "Add LocalBusiness + Plumber schema markup",
+      "detail": "Adding structured data to every service page so Google understands the business.",
+      "phase": "phase-1",
+      "status": "in-progress",
+      "completedDate": null,
+      "hours": 5
+    },
+    {
+      "id": "t4",
+      "title": "Write meta descriptions for all pages",
+      "detail": "Unique title tags and meta descriptions across the site to improve click-through.",
+      "phase": "phase-1",
+      "status": "in-progress",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t5",
+      "title": "Build 'Water Heater Services' pillar page",
+      "detail": "Category-level pillar linking down to all water heater service pages.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 4
+    },
+    {
+      "id": "t6",
+      "title": "Build 'Drain Cleaning' pillar page",
+      "detail": "Category-level pillar for drain services.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 4
+    },
+    {
+      "id": "t7",
+      "title": "Emergency plumbing service page",
+      "detail": "Bottom-of-funnel page targeting 'emergency plumber Toronto'.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t8",
+      "title": "Pricing pages (per service)",
+      "detail": "Dedicated cost pages to capture ready-to-buy searchers.",
+      "phase": "phase-3",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 3
+    },
+    {
+      "id": "t9",
+      "title": "Chamber of Commerce + directory listings",
+      "detail": "Local authority links and citation consistency.",
+      "phase": "phase-3",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    }
+  ],
+  "keywords": [
+    { "term": "emergency plumber Toronto", "current": 14, "previous": 22, "target": 3 },
+    { "term": "drain cleaning Toronto", "current": 9, "previous": 12, "target": 3 },
+    { "term": "water heater repair Toronto", "current": 18, "previous": 25, "target": 5 },
+    { "term": "clogged drain Toronto", "current": 7, "previous": 11, "target": 3 }
+  ],
+  "updates": [
+    { "date": "2026-05-12", "note": "Technical audit complete — score 38/100. Biggest wins: schema + meta descriptions, now in progress." },
+    { "date": "2026-05-06", "note": "GBP category audit done. 8 pillar topics identified." }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "clients": [
+    { "slug": "drainrooter", "name": "DrainRooter Plumbing", "industry": "Plumbing", "location": "Toronto, ON" },
+    { "slug": "maple-leaf-inn", "name": "Maple Leaf Inn", "industry": "Hospitality", "location": "Kincardine, ON" }
+  ]
+}

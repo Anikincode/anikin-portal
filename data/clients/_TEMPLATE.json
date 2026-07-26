@@ -1,0 +1,50 @@
+{
+  "slug": "client-slug",
+  "name": "Client Business Name",
+  "website": "https://example.com",
+  "industry": "Industry",
+  "location": "City, ON",
+  "engagementStart": "2026-07-01",
+  "planName": "Local SEO — Core 30 Framework",
+  "summary": "One or two sentences the client sees describing the overall plan in plain English.",
+  "phases": [
+    { "id": "phase-1", "name": "Phase 1 — Foundation & Technical", "timeframe": "Weeks 1–2", "status": "in-progress" },
+    { "id": "phase-2", "name": "Phase 2 — Pillar & Service Pages", "timeframe": "Weeks 3–4", "status": "upcoming" },
+    { "id": "phase-3", "name": "Phase 3 — Supporting Content & Authority", "timeframe": "Weeks 5–6", "status": "upcoming" }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Example completed task",
+      "detail": "Short plain-English description the client can understand.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-07-05",
+      "hours": 3
+    },
+    {
+      "id": "t2",
+      "title": "Example task in progress",
+      "detail": "What you're working on right now.",
+      "phase": "phase-1",
+      "status": "in-progress",
+      "completedDate": null,
+      "hours": 4
+    },
+    {
+      "id": "t3",
+      "title": "Example upcoming task",
+      "detail": "What's coming next.",
+      "phase": "phase-2",
+      "status": "upcoming",
+      "completedDate": null,
+      "hours": 2
+    }
+  ],
+  "keywords": [
+    { "term": "example keyword city", "current": 12, "previous": 18, "target": 3 }
+  ],
+  "updates": [
+    { "date": "2026-07-05", "note": "Kickoff complete. Here's what we did and what's next." }
+  ]
+}
