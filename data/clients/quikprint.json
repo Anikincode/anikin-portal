@@ -277,6 +277,33 @@
       "status": "upcoming",
       "completedDate": null,
       "hours": 1.5
+    },
+    {
+      "id": "t28",
+      "title": "Fix robots.txt — keep your site crawlable",
+      "detail": "An Ahrefs scan flagged your robots.txt as unreachable, which can stop Google from indexing the whole site. We checked it live and the file itself was healthy — the alarm was a temporary server hiccup, not a broken file. To prevent it happening again, we prepared a clean, permanent robots.txt (blocks cart/checkout junk pages, keeps all your real pages open, and adds an AI-crawler policy so ChatGPT/Perplexity/Google AI can cite you) — ready to paste into Rank Math.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-07-27",
+      "hours": 1.5
+    },
+    {
+      "id": "t29",
+      "title": "Add alt text to homepage images",
+      "detail": "Your homepage had 8 product photos (canvas, blueprints, banners, decals and more) with no alt text, plus one with a broken tag. Alt text is what lets your images rank in Google Image search and makes the site accessible. We wrote SEO-friendly, Oakville-focused alt text for every image — ready to paste into WordPress. This also puts you ahead of a local blueprint competitor whose images have no alt text at all.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-07-27",
+      "hours": 1.5
+    },
+    {
+      "id": "t30",
+      "title": "AI recommendation — Oakville blueprint lead",
+      "detail": "Spotted an Oakville resident on Reddit urgently needing blueprints printed and delivered same-day (Staples had turned them down). We drafted a helpful, on-brand reply so QuikPrint can win the job. Beyond the immediate lead, helpful answers in local threads like this feed the AI search engines (ChatGPT, Google AI Overviews) that increasingly recommend local businesses — real proof that 'same-day blueprint delivery Oakville' is live demand.",
+      "phase": "phase-1",
+      "status": "done",
+      "completedDate": "2026-07-27",
+      "hours": 0.5
     }
   ],
   "keywords": [
@@ -291,7 +318,9 @@
     { "term": "wall decals oakville", "current": null, "previous": null, "target": 10 }
   ],
   "updates": [
-    { "date": "2026-07-26", "note": "Started a 30-day product sprint focused on blueprints, posters, stickers, and decals — optimizing the pages that already rank and building new sticker and decal pages from scratch." },
+    { "date": "2026-07-27", "note": "Fixed a crawl alarm: an Ahrefs scan reported your robots.txt as unreachable (which can block Google from indexing the site). We verified the file was actually healthy — it was a brief server hiccup — and prepared a clean permanent version to stop it recurring, plus a policy that lets AI search engines cite you." },
+    { "date": "2026-07-27", "note": "Wrote SEO-friendly alt text for 8 homepage product images (canvas, blueprints, banners, decals and more) so they can rank in Google Image search and the site is accessible — ready to go live." },
+    { "date": "2026-07-27", "note": "Spotted an Oakville resident on Reddit needing same-day blueprint printing and delivery and drafted a reply to win the job — a live signal that 'same-day blueprint delivery Oakville' is real demand we're already targeting." },
     { "date": "2026-07-26", "note": "Published a Google Business Profile post on same-day blueprint printing to boost local visibility with Oakville contractors." },
     { "date": "2026-07-26", "note": "60-day SEO plan kicked off. Technical audit done; schema and duplicate-page fixes now in progress. Next up: GBP optimization and the new Oakville landing page." }
   ]
