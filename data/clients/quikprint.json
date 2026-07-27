@@ -304,6 +304,15 @@
       "status": "done",
       "completedDate": "2026-07-27",
       "hours": 0.5
+    },
+    {
+      "id": "t31",
+      "title": "GBP post — custom poster printing",
+      "detail": "Published a Google Business Profile post promoting custom poster printing in Oakville, with real pricing (from $9.99) and material options. Regular geo-targeted GBP posts keep your profile active and reinforce Oakville as your local service area — which supports map-pack visibility.",
+      "phase": "phase-4",
+      "status": "done",
+      "completedDate": "2026-07-27",
+      "hours": 0.5
     }
   ],
   "keywords": [
@@ -318,6 +327,7 @@
     { "term": "wall decals oakville", "current": null, "previous": null, "target": 10 }
   ],
   "updates": [
+    { "date": "2026-07-27", "note": "Published a Google Business Profile post on custom poster printing in Oakville — with real pricing (from $9.99) — to keep your profile active and reinforce Oakville as your local service area for the map pack." },
     { "date": "2026-07-27", "note": "Fixed a crawl alarm: an Ahrefs scan reported your robots.txt as unreachable (which can block Google from indexing the site). We verified the file was actually healthy — it was a brief server hiccup — and prepared a clean permanent version to stop it recurring, plus a policy that lets AI search engines cite you." },
     { "date": "2026-07-27", "note": "Wrote SEO-friendly alt text for 8 homepage product images (canvas, blueprints, banners, decals and more) so they can rank in Google Image search and the site is accessible — ready to go live." },
     { "date": "2026-07-27", "note": "Spotted an Oakville resident on Reddit needing same-day blueprint printing and delivery and drafted a reply to win the job — a live signal that 'same-day blueprint delivery Oakville' is real demand we're already targeting." },
