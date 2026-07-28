@@ -313,6 +313,15 @@
       "status": "done",
       "completedDate": "2026-07-27",
       "hours": 0.5
+    },
+    {
+      "id": "t32",
+      "title": "Update black & white blueprint pricing",
+      "detail": "Updated the black & white blueprint / plotting prices across the blueprint cost page and B&W plotting page so the site matches your current rates. Accurate pricing on the page helps win 'blueprint printing cost Oakville' searches and stops customers being surprised at the counter.",
+      "phase": "phase-4",
+      "status": "done",
+      "completedDate": "2026-07-27",
+      "hours": 0.5
     }
   ],
   "keywords": [
@@ -327,6 +336,7 @@
     { "term": "wall decals oakville", "current": null, "previous": null, "target": 10 }
   ],
   "updates": [
+    { "date": "2026-07-27", "note": "Updated the black & white blueprint printing prices on the site so they match your current rates — keeps the cost page accurate for 'blueprint printing cost Oakville' searches." },
     { "date": "2026-07-27", "note": "Published a Google Business Profile post on custom poster printing in Oakville — with real pricing (from $9.99) — to keep your profile active and reinforce Oakville as your local service area for the map pack." },
     { "date": "2026-07-27", "note": "Fixed a crawl alarm: an Ahrefs scan reported your robots.txt as unreachable (which can block Google from indexing the site). We verified the file was actually healthy — it was a brief server hiccup — and prepared a clean permanent version to stop it recurring, plus a policy that lets AI search engines cite you." },
     { "date": "2026-07-27", "note": "Wrote SEO-friendly alt text for 8 homepage product images (canvas, blueprints, banners, decals and more) so they can rank in Google Image search and the site is accessible — ready to go live." },
